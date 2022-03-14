@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:8000/api/v1/tasks",
+  baseURL: "https://shoes-app-kar.herokuapp.com/api/v1/tasks",
 });
 
 axios;
